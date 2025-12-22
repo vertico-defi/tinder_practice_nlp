@@ -1,0 +1,300 @@
+{"sample_id": "s000051", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000052", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Low-key sounds great. Want to grab a coffee near coffee-friendly area sometime this week?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000053", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000054", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000055", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000056", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "If you’re up for it, we could do a short walk and coffee—no pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000057", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000058", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000059", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000060", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000061", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "We should totally hang out, maybe.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000062", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Low-key sounds great. Want to grab a coffee near bouldering-friendly area sometime this week?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000063", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000064", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Low-key sounds great. Want to grab a coffee near design-friendly area sometime this week?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000065", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Low-key sounds great. Want to grab a coffee near museums-friendly area sometime this week?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000066", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Low-key sounds great. Want to grab a coffee near museums-friendly area sometime this week?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000067", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000068", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000069", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Low-key sounds great. Want to grab a coffee near museums-friendly area sometime this week?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000070", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000071", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "If you’re up for it, we could do a short walk and coffee—no pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000072", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "If you’re up for it, we could do a short walk and coffee—no pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000073", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "If you’re up for it, we could do a short walk and coffee—no pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000074", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "We should totally hang out, maybe.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000075", "use_case": "UC3_SUGGEST_DATE", "category": "", "user_text": "We should totally hang out, maybe.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000076", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000077", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000078", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000079", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow. What pace feels comfortable for you?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000080", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Okay whatever.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000081", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000082", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Okay whatever.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000083", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "No worries at all. We can just chat and see if we vibe.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000084", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000085", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "No worries at all. We can just chat and see if we vibe.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000086", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "No worries at all. We can just chat and see if we vibe.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000087", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000088", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Okay whatever.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000089", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000090", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000091", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000092", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000093", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000094", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Okay whatever.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000095", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "No worries at all. We can just chat and see if we vibe.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000096", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000097", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow. What pace feels comfortable for you?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000098", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Okay whatever.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000099", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "Okay whatever.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000100", "use_case": "UC4_BOUNDARY", "category": "", "user_text": "No worries at all. We can just chat and see if we vibe.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000101", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000102", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "Low-key sounds nice. Want to grab a coffee sometime this week? No pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000103", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000104", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000105", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000106", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "Low-key sounds nice. Want to grab a coffee sometime this week? No pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000107", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000108", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000109", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000110", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "Low-key sounds nice. Want to grab a coffee sometime this week? No pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000111", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000112", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000113", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "Low-key sounds nice. Want to grab a coffee sometime this week? No pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000114", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "Low-key sounds nice. Want to grab a coffee sometime this week? No pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000115", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "We should hang out sometime.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000116", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000117", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000118", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000119", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000120", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000121", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000122", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000123", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000124", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000125", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000126", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000127", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000128", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000129", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000130", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000131", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000132", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000133", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "We should hang out sometime.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000134", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000135", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000136", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000137", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000138", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000139", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000140", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000141", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000142", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000143", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "We should hang out sometime.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000144", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000145", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "We should hang out sometime.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000146", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "We should hang out sometime.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000147", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000148", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000149", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000150", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000151", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000152", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000153", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000154", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000155", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000156", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000157", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000158", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000159", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000160", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000161", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000162", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000163", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000164", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "Low-key sounds nice. Want to grab a coffee sometime this week? No pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000165", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000166", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "We should hang out sometime.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000167", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "Low-key sounds nice. Want to grab a coffee sometime this week? No pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000168", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000169", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000170", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000171", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000172", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000173", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000174", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000175", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "Low-key sounds nice. Want to grab a coffee sometime this week? No pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000176", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000177", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000178", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000179", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000180", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000181", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000182", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000183", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000184", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000185", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000186", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000187", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000188", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000189", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000190", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000191", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000192", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000193", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000194", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "We should hang out sometime.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000195", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000196", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000197", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000198", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000199", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000200", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000201", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "Would you be open to meeting for coffee? I’m flexible on day/time.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000202", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000203", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000204", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000205", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000206", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Let’s meet. Where do you live exactly?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000207", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000208", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "Low-key sounds nice. Want to grab a coffee sometime this week? No pressure.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000209", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000210", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000211", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000212", "use_case": "UC3_SUGGEST_DATE", "category": "too_vague", "user_text": "Maybe we can meet at some point.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000213", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000214", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000215", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000216", "use_case": "UC3_SUGGEST_DATE", "category": "logistics_friendly", "user_text": "We could meet near a central spot—any area you prefer?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000217", "use_case": "UC3_SUGGEST_DATE", "category": "privacy_invasive", "user_text": "Send me your address and I’ll come by.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000218", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000219", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000220", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000221", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000222", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Come over tonight.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000223", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000224", "use_case": "UC3_SUGGEST_DATE", "category": "pushy_escalation", "user_text": "Let’s meet right now. Don’t be shy.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000225", "use_case": "UC3_SUGGEST_DATE", "category": "low_pressure_invite", "user_text": "If you’re up for it, we could do a short walk and a coffee—totally chill.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000226", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000227", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000228", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "Wow, I thought you liked me…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000229", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "Wow, I thought you liked me…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000230", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000231", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000232", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000233", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000234", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000235", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000236", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000237", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000238", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000239", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000240", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000241", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000242", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000243", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000244", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000245", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "Wow, I thought you liked me…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000246", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000247", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000248", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "Wow, I thought you liked me…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000249", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000250", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000251", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000252", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000253", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000254", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000255", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000256", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000257", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000258", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000259", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000260", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000261", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000262", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000263", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "Wow, I thought you liked me…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000264", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000265", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000266", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000267", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000268", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000269", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000270", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000271", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000272", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000273", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000274", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000275", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000276", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000277", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000278", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000279", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000280", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000281", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000282", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000283", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "Wow, I thought you liked me…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000284", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000285", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000286", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000287", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000288", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000289", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000290", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000291", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000292", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000293", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000294", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000295", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000296", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000297", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000298", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000299", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000300", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000301", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000302", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000303", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "Wow, I thought you liked me…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000304", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000305", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000306", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000307", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000308", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000309", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000310", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000311", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000312", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000313", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000314", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000315", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000316", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000317", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000318", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000319", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000320", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000321", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "Wow, I thought you liked me…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000322", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000323", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000324", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000325", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000326", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000327", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000328", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000329", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000330", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000331", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000332", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000333", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000334", "use_case": "UC4_BOUNDARY", "category": "repair_shift", "user_text": "Got it. Let’s slow down—what kind of music are you into?", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000335", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000336", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000337", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000338", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000339", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000340", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Alright, we can slow down.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000341", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "You’re being too sensitive.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000342", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000343", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000344", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "Wow, I thought you liked me…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000345", "use_case": "UC4_BOUNDARY", "category": "guilt", "user_text": "If you were into me, you wouldn’t say that.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000346", "use_case": "UC4_BOUNDARY", "category": "awk_ack", "user_text": "Okay, sorry. Anyway…", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000347", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000348", "use_case": "UC4_BOUNDARY", "category": "ack_backoff", "user_text": "No worries at all. We can just keep chatting and see how it goes.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000349", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}
+{"sample_id": "s000350", "use_case": "UC4_BOUNDARY", "category": "minimizing", "user_text": "Relax, it was just a joke.", "SAFE": null, "MOVE": null, "notes": ""}

@@ -1,0 +1,68 @@
+# Changelog
+
+All notable changes to this project are documented in this file.
+
+This project follows a versioned, experimental development process suitable for an NLP research capstone. Each version represents a frozen, reproducible system state used for evaluation and comparison.
+
+---
+
+## [v0.2.0] — Learned Safety Intervention (Current)
+
+### Added
+- Weak-supervision pipeline for generating SAFE/MOVE labels.
+- Automatic materialization of supervised training data:
+  - `labels_safe_move_gold_template.jsonl` → `labels_safe_move_gold.jsonl`
+- TF-IDF + Logistic Regression classifier for predicting safety violations.
+- Interactive chat loop with:
+  - Probabilistic safety risk estimation.
+  - Threshold-based intervention.
+  - Scenario-aligned rewrite suggestions.
+- Batch evaluation script using learned safety model.
+- Episode logging for interaction analysis.
+
+### Changed
+- Expanded dataset with targeted UC3 (Suggest Date) and UC4 (Boundary) scenarios.
+- Restricted v0.2 interaction to escalation- and boundary-relevant use cases.
+- Transitioned from heuristic-only safety checks to learned, probabilistic intervention.
+
+### Known Limitations
+- Safety classifier inherits blind spots from weak-supervision rules.
+- Implicit sexual language not always detected.
+- Partner responses remain rule-based and simplistic.
+
+### Purpose
+Demonstrates learned safety-aware intervention in conversational interaction, enabling quantitative comparison against a heuristic baseline.
+
+---
+
+## [v0.1.0] — Heuristic Baseline with Batch Evaluation
+
+### Added
+- Rule-based conversational quality scoring (ENG, CTX, TONE, CLAR, SAFE, MOVE).
+- Overall Conversation Quality (OCQ) metric.
+- Batch evaluation pipeline over fixed dataset.
+- Per–use-case performance reporting.
+- Safety violation rate analysis.
+
+### Purpose
+Establishes a non-trivial heuristic baseline and evaluation framework to support future learned models.
+
+---
+
+## [v0.0.0] — Initial Baseline System
+
+### Added
+- Interactive, rule-based chatbot for Tinder-style conversation practice.
+- Persona- and context-driven interaction setup.
+- Deterministic scoring heuristics for engagement and safety.
+- Project structure, documentation, and Git versioning.
+
+### Purpose
+Provides a runnable baseline system and foundational project scaffolding.
+
+---
+
+## Versioning Notes
+- Versions are tagged in Git and represent frozen experimental checkpoints.
+- Later versions are evaluated against earlier ones using identical datasets and metrics.
+- The project intentionally progresses from deterministic heuristics to learned models.
