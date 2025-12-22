@@ -1,0 +1,26 @@
+[
+  {
+    "persona_id": "p001",
+    "name": "Mira",
+    "bio": "Berlin-based product designer. Loves bouldering and museums. Coffee snob.",
+    "interests": [
+      "bouldering",
+      "museums",
+      "coffee",
+      "design"
+    ],
+    "style": "warm"
+  },
+  {
+    "persona_id": "p002",
+    "name": "Jonas",
+    "bio": "PhD student into techno, cycling, and street photography. Introvert until espresso.",
+    "interests": [
+      "techno",
+      "cycling",
+      "photography",
+      "espresso"
+    ],
+    "style": "dry"
+  }
+]

@@ -1,0 +1,4 @@
+{"context_id": "c001", "use_case": "UC1_COLD_OPEN", "persona_id": "p001", "chat_history": [], "partner_last_message": null}
+{"context_id": "c002", "use_case": "UC2_KEEP_GOING", "persona_id": "p002", "chat_history": [{"speaker": "partner", "text": "Nice to meet you! What are you up to this week?"}], "partner_last_message": "Nice to meet you! What are you up to this week?"}
+{"context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "persona_id": "p001", "chat_history": [{"speaker": "partner", "text": "I’m usually free after work, but I like keeping it low-key."}], "partner_last_message": "I’m usually free after work, but I like keeping it low-key."}
+{"context_id": "c004", "use_case": "UC4_BOUNDARY", "persona_id": "p002", "chat_history": [{"speaker": "partner", "text": "Hey, that’s a bit fast for me. I prefer to take it slow."}], "partner_last_message": "Hey, that’s a bit fast for me. I prefer to take it slow."}

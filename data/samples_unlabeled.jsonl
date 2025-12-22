@@ -1,0 +1,100 @@
+{"sample_id": "s000001", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Hi Mira."}
+{"sample_id": "s000002", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Hey Mira — bouldering + museums is a strong combo. What’s your go-to spot in Berlin?"}
+{"sample_id": "s000003", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Wow you’re hot."}
+{"sample_id": "s000004", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "If you had to pick one: design or bouldering?"}
+{"sample_id": "s000005", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Hey Mira — design + bouldering is a strong combo. What’s your go-to spot in Berlin?"}
+{"sample_id": "s000006", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Hi Mira."}
+{"sample_id": "s000007", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Hey Mira — museums + bouldering is a strong combo. What’s your go-to spot in Berlin?"}
+{"sample_id": "s000008", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Your bio is cool. What do you do?"}
+{"sample_id": "s000009", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Wow you’re hot."}
+{"sample_id": "s000010", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Hey Mira — museums + design is a strong combo. What’s your go-to spot in Berlin?"}
+{"sample_id": "s000011", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Wow you’re hot."}
+{"sample_id": "s000012", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Wow you’re hot."}
+{"sample_id": "s000013", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Your bio is cool. What do you do?"}
+{"sample_id": "s000014", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Your bio is cool. What do you do?"}
+{"sample_id": "s000015", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Hi Mira."}
+{"sample_id": "s000016", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Wow you’re hot."}
+{"sample_id": "s000017", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Your bio is cool. What do you do?"}
+{"sample_id": "s000018", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Hi Mira."}
+{"sample_id": "s000019", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "If you had to pick one: bouldering or coffee?"}
+{"sample_id": "s000020", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Wow you’re hot."}
+{"sample_id": "s000021", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Wow you’re hot."}
+{"sample_id": "s000022", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Hey Mira — bouldering + museums is a strong combo. What’s your go-to spot in Berlin?"}
+{"sample_id": "s000023", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Hey Mira — bouldering + coffee is a strong combo. What’s your go-to spot in Berlin?"}
+{"sample_id": "s000024", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Wow you’re hot."}
+{"sample_id": "s000025", "context_id": "c001", "use_case": "UC1_COLD_OPEN", "user_text": "Your bio is cool. What do you do?"}
+{"sample_id": "s000026", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Not much lol"}
+{"sample_id": "s000027", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Not much lol"}
+{"sample_id": "s000028", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "I’m free on Thursday evening—what do you like doing after work?"}
+{"sample_id": "s000029", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Not much lol"}
+{"sample_id": "s000030", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Not much lol"}
+{"sample_id": "s000031", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "I’m free on Thursday evening—what do you like doing after work?"}
+{"sample_id": "s000032", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Not much lol"}
+{"sample_id": "s000033", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Not much lol"}
+{"sample_id": "s000034", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "This week is a bit busy, but I’m trying to squeeze in espresso. How about you?"}
+{"sample_id": "s000035", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Probably work and sleep. You?"}
+{"sample_id": "s000036", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "I’m free on Thursday evening—what do you like doing after work?"}
+{"sample_id": "s000037", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Not much lol"}
+{"sample_id": "s000038", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "I’m free on Thursday evening—what do you like doing after work?"}
+{"sample_id": "s000039", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "I’m free on Thursday evening—what do you like doing after work?"}
+{"sample_id": "s000040", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "This week is a bit busy, but I’m trying to squeeze in cycling. How about you?"}
+{"sample_id": "s000041", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "This week is a bit busy, but I’m trying to squeeze in photography. How about you?"}
+{"sample_id": "s000042", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "This week is a bit busy, but I’m trying to squeeze in techno. How about you?"}
+{"sample_id": "s000043", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Why do you even ask that?"}
+{"sample_id": "s000044", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "This week is a bit busy, but I’m trying to squeeze in cycling. How about you?"}
+{"sample_id": "s000045", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Not much lol"}
+{"sample_id": "s000046", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "I’m free on Thursday evening—what do you like doing after work?"}
+{"sample_id": "s000047", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "I’m free on Thursday evening—what do you like doing after work?"}
+{"sample_id": "s000048", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "This week is a bit busy, but I’m trying to squeeze in cycling. How about you?"}
+{"sample_id": "s000049", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Probably work and sleep. You?"}
+{"sample_id": "s000050", "context_id": "c002", "use_case": "UC2_KEEP_GOING", "user_text": "Why do you even ask that?"}
+{"sample_id": "s000051", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Come over tonight."}
+{"sample_id": "s000052", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Low-key sounds great. Want to grab a coffee near coffee-friendly area sometime this week?"}
+{"sample_id": "s000053", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Come over tonight."}
+{"sample_id": "s000054", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Come over tonight."}
+{"sample_id": "s000055", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Come over tonight."}
+{"sample_id": "s000056", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "If you’re up for it, we could do a short walk and coffee—no pressure."}
+{"sample_id": "s000057", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Let’s meet. Where do you live exactly?"}
+{"sample_id": "s000058", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Let’s meet. Where do you live exactly?"}
+{"sample_id": "s000059", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Come over tonight."}
+{"sample_id": "s000060", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Come over tonight."}
+{"sample_id": "s000061", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "We should totally hang out, maybe."}
+{"sample_id": "s000062", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Low-key sounds great. Want to grab a coffee near bouldering-friendly area sometime this week?"}
+{"sample_id": "s000063", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Let’s meet. Where do you live exactly?"}
+{"sample_id": "s000064", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Low-key sounds great. Want to grab a coffee near design-friendly area sometime this week?"}
+{"sample_id": "s000065", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Low-key sounds great. Want to grab a coffee near museums-friendly area sometime this week?"}
+{"sample_id": "s000066", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Low-key sounds great. Want to grab a coffee near museums-friendly area sometime this week?"}
+{"sample_id": "s000067", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Come over tonight."}
+{"sample_id": "s000068", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Come over tonight."}
+{"sample_id": "s000069", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Low-key sounds great. Want to grab a coffee near museums-friendly area sometime this week?"}
+{"sample_id": "s000070", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "Come over tonight."}
+{"sample_id": "s000071", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "If you’re up for it, we could do a short walk and coffee—no pressure."}
+{"sample_id": "s000072", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "If you’re up for it, we could do a short walk and coffee—no pressure."}
+{"sample_id": "s000073", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "If you’re up for it, we could do a short walk and coffee—no pressure."}
+{"sample_id": "s000074", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "We should totally hang out, maybe."}
+{"sample_id": "s000075", "context_id": "c003", "use_case": "UC3_SUGGEST_DATE", "user_text": "We should totally hang out, maybe."}
+{"sample_id": "s000076", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "You’re being too sensitive."}
+{"sample_id": "s000077", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Relax, it was just a joke."}
+{"sample_id": "s000078", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "You’re being too sensitive."}
+{"sample_id": "s000079", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow. What pace feels comfortable for you?"}
+{"sample_id": "s000080", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Okay whatever."}
+{"sample_id": "s000081", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "You’re being too sensitive."}
+{"sample_id": "s000082", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Okay whatever."}
+{"sample_id": "s000083", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "No worries at all. We can just chat and see if we vibe."}
+{"sample_id": "s000084", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "You’re being too sensitive."}
+{"sample_id": "s000085", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "No worries at all. We can just chat and see if we vibe."}
+{"sample_id": "s000086", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "No worries at all. We can just chat and see if we vibe."}
+{"sample_id": "s000087", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Relax, it was just a joke."}
+{"sample_id": "s000088", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Okay whatever."}
+{"sample_id": "s000089", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Relax, it was just a joke."}
+{"sample_id": "s000090", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Relax, it was just a joke."}
+{"sample_id": "s000091", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Relax, it was just a joke."}
+{"sample_id": "s000092", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "You’re being too sensitive."}
+{"sample_id": "s000093", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Relax, it was just a joke."}
+{"sample_id": "s000094", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Okay whatever."}
+{"sample_id": "s000095", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "No worries at all. We can just chat and see if we vibe."}
+{"sample_id": "s000096", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "You’re being too sensitive."}
+{"sample_id": "s000097", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Totally fair—thanks for saying that. I’m happy to take it slow. What pace feels comfortable for you?"}
+{"sample_id": "s000098", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Okay whatever."}
+{"sample_id": "s000099", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "Okay whatever."}
+{"sample_id": "s000100", "context_id": "c004", "use_case": "UC4_BOUNDARY", "user_text": "No worries at all. We can just chat and see if we vibe."}
