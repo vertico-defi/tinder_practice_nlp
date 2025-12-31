@@ -1,13 +1,16 @@
-# Model Card - Safety Gate (v0.4)
+# Model Card - Safety Gate (v0.5)
 
 ## Model Summary
 - Model: sentence-transformer embeddings + Logistic Regression classifier (v0.3 setup)
 - Purpose: score user messages for boundary-risk and gate unsafe moves
 - Primary artifact: `models/safe_violation_clf_embed.joblib`
 
-## System Overview (v0.4)
+## System Overview (v0.5)
 - LLM layer: llama.cpp client using a local GGUF instruct model (external pretrained; not trained here)
 - Safety layer: v0.3 embedding logistic regression classifier used as a guardrail
+- Phase tracker: conservative phase inference used for gating and debug output
+- Personality: randomized per session from preset profiles
+- Semantic memory: fact-only memory persisted to `data/memory/`
 
 ## Intended Use
 - Safety-risk estimation and intervention in the practice chat loop.
@@ -26,6 +29,7 @@
 - Input: user message (string)
 - Output: `p_move` (probability), label (`SAFE`/`MOVE`), and a gating decision
   - If `MOVE` or an obvious escalation rule hits, respond with a boundary-safe repair template
+  - If erotic intent is early or disallowed by phase/personality, respond with a soft deflection
   - Otherwise pass the conversation to the LLM
 
 ## Evaluation
@@ -37,6 +41,7 @@
 - Weak supervision rules can miss implicit or nuanced unsafe content.
 - Safety gate can be conservative; false positives may occur in romantic/private contexts.
 - LLM response quality depends on the chosen GGUF model and decoding settings.
+- Phase inference and intent detection are heuristic and can misclassify tone.
 
 ## Ethical Considerations
 - The system should not encourage harassment, coercion, or explicit sexual content.

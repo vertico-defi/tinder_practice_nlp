@@ -6,7 +6,28 @@ This project follows a versioned, experimental development process suitable for 
 
 ---
 
-## [v0.2.0] — Learned Safety Intervention (Current)
+## [v0.5.0] — Phases, Personality, Memory (Current)
+
+### Added
+- Conversation phase tracking with conservative transitions and debug output.
+- Randomized personality profiles per session.
+- Gated erotic escalation with soft deflection templates.
+- Fact-only semantic memory persisted under `data/memory/`.
+
+### Changed
+- Chat entrypoint updated to `python -m src.chat_v0_5_chatbot`.
+- System prompt now injects phase/personality/memory context for the LLM.
+
+### Known Limitations
+- Phase/intent detection is heuristic and can misclassify tone.
+- Safety gate may still be conservative on borderline messages.
+
+### Purpose
+Adds realism and continuity to the offline chatbot while keeping the v0.3 safety gate as a guardrail.
+
+---
+
+## [v0.2.0] — Learned Safety Intervention
 
 ### Added
 - Weak-supervision pipeline for generating SAFE/MOVE labels.

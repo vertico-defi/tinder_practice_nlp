@@ -14,12 +14,13 @@ This document describes the datasets in `data/` and how they are generated.
 - `data/labels_safe_move_gold.jsonl`: materialized labels (weak supervision or manual edits).
 - `data/labels_safe_move_synth_validation.jsonl`: synthetic validation set for SAFE and MOVE.
 
-v0.4 reuses the v0.3 training/eval assets; no new labeled datasets were introduced.
+v0.5 reuses the v0.3 training/eval assets; no new labeled datasets were introduced.
 Archived synthetic train/binary artifacts and scripts live under `archive/v0_3_experiments/`.
 
 ## Results
 - `data/results/`: evaluation outputs (batch reports, validation summaries).
 - `data/logs/`: chat episode logs (created by chat scripts).
+- `data/memory/`: per-session semantic memory (runtime-generated).
 
 ## Schema Summary
 - `personas.json`:

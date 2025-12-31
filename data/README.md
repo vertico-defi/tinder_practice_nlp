@@ -6,6 +6,7 @@ This repository contains a dating-chat practice simulator and safety-aware coach
 ## Status
 - v0.2: Learned safety intervention with TF-IDF + Logistic Regression for unsafe content detection.
 - v0.4: Two-layer offline chatbot (llama.cpp LLM + v0.3 embedding safety gate).
+- v0.5: Phase tracking + personality profiles + gated erotic escalation + semantic memory.
 - Datasets and evaluation scripts live under `data/` and `src/`.
 
 ## Repo Layout
@@ -17,7 +18,7 @@ This repository contains a dating-chat practice simulator and safety-aware coach
 ## Quickstart (common entrypoints)
 Use the script help (`--help`) for full options.
 - Chat loop: `python src/chat_v0_2.py`
-- Offline chatbot (v0.4): `python -m src.chat_v0_3_chatbot --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf`
+- Offline chatbot (v0.5): `python -m src.chat_v0_5_chatbot --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf`
 - Train safety classifier: `python src/train_safe_classifier.py`
 - Batch run: `python src/run_batch_v0.py`
 - Report results: `python src/report_batch_results.py`
@@ -40,4 +41,4 @@ Note: several scripts require `scikit-learn` and `joblib` even though `requireme
 - Synthetic validation set: `data/labels_safe_move_synth_validation.jsonl`
 - Evaluation reports: `data/results/`
 - Source files: `data/personas.json`, `data/contexts.jsonl`, `data/samples_unlabeled.jsonl`, `data/labels_safe_move_gold.jsonl`
-- Generated outputs: `data/results/`, `data/logs/`, and `models/`
+- Generated outputs: `data/results/`, `data/logs/`, `data/memory/`, and `models/`

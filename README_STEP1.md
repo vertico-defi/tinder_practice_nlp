@@ -2,13 +2,38 @@
 
 Note: This document covers the initial Step 1 deliverable only. For current project status and workflows, see `README.md`.
 
-## v0.4 Offline Chatbot (llama.cpp + v0.3 safety gate)
+## v0.4 Offline Chatbot (base for v0.5)
 Run the terminal chatbot with a local GGUF instruct model (no internet needed once the model is downloaded).
 
 Example:
 ```bash
-python -u -m src.chat_v0_3_chatbot --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf --persona flirty_adult_ok --threshold 0.45
+python -u -m src.chat_v0_5_chatbot --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf --persona flirty_adult_ok --threshold 0.45
 ```
+
+## v0.5 Conversation Phases + Personality + Memory
+Adds phase tracking, randomized personality profiles, gated erotic escalation, and fact-only semantic memory.
+
+Phases: OPENING → RAPPORT → FLIRTING → INTIMATE → EROTIC (with BOUNDARY_REPAIR and COOLDOWN when needed).
+
+Example:
+```bash
+python -u -m src.chat_v0_5_chatbot \
+  --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf \
+  --persona_profile random \
+  --threshold 0.45
+```
+
+Clear memory:
+```bash
+python -m src.chat_v0_5_chatbot --clear-memory --memory_id test1
+```
+
+Key flags:
+- `--persona_profile`: `random` or a preset id (see startup log)
+- `--memory_id`: session memory file key (default derived from persona + date)
+- `--clear-memory`: delete memory file and exit
+
+Memory behavior: extracts simple user facts (likes/favorites/job) and skips sensitive data (addresses/phones).
 
 ## Purpose
 This repository defines a platform-agnostic dating-chat practice simulator dataset and evaluation rubric for an NLP capstone project.

@@ -14,9 +14,9 @@ Archived binary variants live under `archive/v0_3_experiments/`.
 
 Outputs are written to `data/results/` with versioned filenames.
 
-## v0.4 System-Level Evaluation
+## v0.5 System-Level Evaluation
 - The safety classifier metrics remain the v0.3 synthetic validation evaluation.
-- For v0.4, manual smoke tests verified the gate triggers on address/location requests and escalation prompts.
+- For v0.5, manual smoke tests verified phase debug output, personality selection, memory persistence, and gate behavior on escalation prompts.
 - No new benchmark results are claimed beyond the existing `data/results/` reports.
 
 ## Reporting Conventions
