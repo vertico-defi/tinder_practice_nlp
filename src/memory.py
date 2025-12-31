@@ -66,6 +66,13 @@ class SemanticMemoryStore:
         self.root.mkdir(parents=True, exist_ok=True)
         self.path = self.root / f"{memory_id}.json"
         self.items: List[MemoryItem] = []
+        self.meta: Dict[str, object] = {
+            "trust_level": 0.1,
+            "consent_state": "none",
+            "trust_history": [],
+            "boundaries": [],
+            "last_updated": _now_iso(),
+        }
         self._load()
 
     def _load(self) -> None:
@@ -75,6 +82,15 @@ class SemanticMemoryStore:
             raw = json.loads(self.path.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             raw = []
+
+        if isinstance(raw, dict):
+            items_raw = raw.get("items", [])
+            meta_raw = raw.get("meta", {})
+            if isinstance(meta_raw, dict):
+                self.meta.update(meta_raw)
+        else:
+            items_raw = raw
+
         self.items = [
             MemoryItem(
                 key=i["key"],
@@ -82,16 +98,24 @@ class SemanticMemoryStore:
                 confidence=float(i.get("confidence", 0.6)),
                 last_seen=i.get("last_seen", _now_iso()),
             )
-            for i in raw
+            for i in items_raw
             if isinstance(i, dict) and "key" in i and "value" in i
         ]
 
     def save(self) -> None:
-        payload = [i.as_dict() for i in self.items]
+        self.meta["last_updated"] = _now_iso()
+        payload = {"items": [i.as_dict() for i in self.items], "meta": self.meta}
         self.path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
     def clear(self) -> None:
         self.items = []
+        self.meta = {
+            "trust_level": 0.1,
+            "consent_state": "none",
+            "trust_history": [],
+            "boundaries": [],
+            "last_updated": _now_iso(),
+        }
         if self.path.exists():
             self.path.unlink()
 
@@ -110,6 +134,35 @@ class SemanticMemoryStore:
             self.save()
         return added
 
+    def update_boundary(self, user_text: str) -> Optional[str]:
+        t = (user_text or "").lower()
+        if any(phrase in t for phrase in ["not comfortable", "not ready", "slow down", "too fast"]):
+            boundary = "prefers_slow_pace"
+        elif "no location" in t or "don't share location" in t:
+            boundary = "no_location_sharing"
+        else:
+            boundary = None
+        if boundary and boundary not in self.meta.get("boundaries", []):
+            self.meta.setdefault("boundaries", []).append(boundary)
+            self.save()
+        return boundary
+
+    def update_trust(self, trust_level: float, consent_state: str, reason: str) -> None:
+        self.meta["trust_level"] = float(trust_level)
+        self.meta["consent_state"] = consent_state
+        history = self.meta.get("trust_history", [])
+        if isinstance(history, list):
+            history.append(
+                {
+                    "ts": _now_iso(),
+                    "trust": float(trust_level),
+                    "consent": consent_state,
+                    "reason": reason,
+                }
+            )
+            self.meta["trust_history"] = history[-20:]
+        self.save()
+
     def _upsert(self, key: str, value: str) -> Optional[MemoryItem]:
         now = _now_iso()
         for item in self.items:
@@ -125,3 +178,11 @@ class SemanticMemoryStore:
         sorted_items = sorted(self.items, key=lambda i: i.last_seen, reverse=True)
         highlights = [f"{i.key}: {i.value}" for i in sorted_items[:k]]
         return highlights
+
+    def get_hooks(self, k: int = 2) -> List[str]:
+        hooks: List[str] = []
+        boundaries = self.meta.get("boundaries", [])
+        if isinstance(boundaries, list) and boundaries:
+            hooks.append(f"boundaries: {', '.join(boundaries[:2])}")
+        hooks.extend(self.get_highlights(k=k))
+        return hooks[:k]

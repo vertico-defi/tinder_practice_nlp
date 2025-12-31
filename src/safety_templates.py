@@ -93,6 +93,7 @@ def boundary_safe_reply_contextual(
     phase: str,
     persona: str,
     bot_profile: BotProfile,
+    trust: float,
     rng: random.Random | None = None,
 ) -> str:
     rng = rng or random.Random()
@@ -103,7 +104,7 @@ def boundary_safe_reply_contextual(
         ack = f"{ack}, noted"
 
     redirects = _REDIRECTS_OPEN if phase in {"OPENING", "RAPPORT"} else _REDIRECTS_LATE
-    if bot_profile.boundary_strictness >= 0.7:
+    if bot_profile.boundary_strictness >= 0.7 and trust < 0.6:
         redirects = _REDIRECTS_FIRM
     redirect = rng.choice(redirects)
     if persona == "flirty_adult_ok" and rng.random() < 0.25:

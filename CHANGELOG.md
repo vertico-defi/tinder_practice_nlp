@@ -6,7 +6,7 @@ This project follows a versioned, experimental development process suitable for 
 
 ---
 
-## [v0.5.1] — Safety Repair + Profile Preferences (Current)
+## [v0.5.2] — Trust-Tier Safety + Identity Guard (Current)
 
 ### Added
 - Conversation phase tracking with conservative transitions and debug output.
@@ -18,6 +18,8 @@ This project follows a versioned, experimental development process suitable for 
 - SAFE expansion synthetic file for benign intimacy-adjacent language.
 - Merge script and merged training set for SAFE expansion data.
 - Session blocking for repeated escalation or low engagement.
+- Trust-level safety tiers with consent logging.
+- Identity lock and reality guard for consistent, plausible replies.
 
 ### Changed
 - Chat entrypoint updated to `python -m src.chat_v0_5_chatbot`.

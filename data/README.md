@@ -6,7 +6,7 @@ This repository contains a dating-chat practice simulator and safety-aware coach
 ## Status
 - v0.2: Learned safety intervention with TF-IDF + Logistic Regression for unsafe content detection.
 - v0.4: Two-layer offline chatbot (llama.cpp LLM + v0.3 embedding safety gate).
-- v0.5.1: Context-aware safety repair + bot gender selection + block behavior.
+- v0.5.2: Trust-tiered safety, identity guard, and reality guard layered on the offline chatbot.
 - Datasets and evaluation scripts live under `data/` and `src/`.
 
 ## Repo Layout
@@ -18,7 +18,7 @@ This repository contains a dating-chat practice simulator and safety-aware coach
 ## Quickstart (common entrypoints)
 Use the script help (`--help`) for full options.
 - Chat loop: `python src/chat_v0_2.py`
-- Offline chatbot (v0.5.1): `python -m src.chat_v0_5_chatbot --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf --bot_gender random --attraction unspecified`
+- Offline chatbot (v0.5.2): `python -m src.chat_v0_5_chatbot --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf --bot_gender random --attraction unspecified`
 - Train safety classifier: `python src/train_safe_classifier.py`
 - Batch run: `python src/run_batch_v0.py`
 - Report results: `python src/report_batch_results.py`

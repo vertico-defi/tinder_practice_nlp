@@ -16,9 +16,9 @@ Outputs are written to `data/results/` with versioned filenames.
 Optional SAFE expansion data lives at `data/labels_safe_move_synth_safe_expansion.jsonl`.
 Merged training data (base + SAFE expansion) is at `data/labels_safe_move_synth_merged.jsonl`.
 
-## v0.5.1 System-Level Evaluation
+## v0.5.2 System-Level Evaluation
 - The safety classifier metrics remain the v0.3 synthetic validation evaluation.
-- For v0.5.1, manual smoke tests verified phase debug output, personality selection, memory persistence, contextual safety repair, and block behavior.
+- For v0.5.2, manual smoke tests verified trust-tier logging, identity lock, reality guard behavior, and contextual safety repair.
 - No new benchmark results are claimed beyond the existing `data/results/` reports.
 
 ## Retraining Note
