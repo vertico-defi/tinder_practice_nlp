@@ -10,7 +10,7 @@ Example:
 python -u -m src.chat_v0_5_chatbot --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf --persona flirty_adult_ok --threshold 0.45
 ```
 
-## v0.5 Conversation Phases + Personality + Memory
+## v0.5.1 Conversation Phases + Personality + Memory
 Adds phase tracking, randomized personality profiles, gated erotic escalation, and fact-only semantic memory.
 
 Phases: OPENING → RAPPORT → FLIRTING → INTIMATE → EROTIC (with BOUNDARY_REPAIR and COOLDOWN when needed).
@@ -30,10 +30,14 @@ python -m src.chat_v0_5_chatbot --clear-memory --memory_id test1
 
 Key flags:
 - `--persona_profile`: `random` or a preset id (see startup log)
+- `--bot_gender`: `female|male|random` (default random)
+- `--user_gender`: `female|male|unspecified` (default unspecified)
+- `--attraction`: `women|men|any|unspecified` (default unspecified)
 - `--memory_id`: session memory file key (default derived from persona + date)
 - `--clear-memory`: delete memory file and exit
 
 Memory behavior: extracts simple user facts (likes/favorites/job) and skips sensitive data (addresses/phones).
+Blocking behavior: repeated escalation or low engagement can trigger a polite block and end the session.
 
 ## Purpose
 This repository defines a platform-agnostic dating-chat practice simulator dataset and evaluation rubric for an NLP capstone project.

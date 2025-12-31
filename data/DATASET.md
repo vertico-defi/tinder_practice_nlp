@@ -13,8 +13,10 @@ This document describes the datasets in `data/` and how they are generated.
 - `data/labels_safe_move_gold_template.jsonl`: labeling template for SAFE and MOVE.
 - `data/labels_safe_move_gold.jsonl`: materialized labels (weak supervision or manual edits).
 - `data/labels_safe_move_synth_validation.jsonl`: synthetic validation set for SAFE and MOVE.
+- `data/labels_safe_move_synth_safe_expansion.jsonl`: synthetic SAFE expansions for benign intimacy-adjacent language.
+- `data/labels_safe_move_synth_merged.jsonl`: merged base + SAFE expansion (training convenience).
 
-v0.5 reuses the v0.3 training/eval assets; no new labeled datasets were introduced.
+v0.5.1 reuses the v0.3 training/eval assets; no new labeled datasets were introduced.
 Archived synthetic train/binary artifacts and scripts live under `archive/v0_3_experiments/`.
 
 ## Results
@@ -38,6 +40,8 @@ Archived synthetic train/binary artifacts and scripts live under `archive/v0_3_e
 - Step 1 dataset generation: `python src/make_step1_data.py`
 - SAFE/MOVE label template: `python src/make_safe_move_labels.py`
 - Weak supervision materialization: `python src/auto_label_safe_move.py`
+- SAFE expansion set: `python src/make_safe_move_synth_safe_expansion.py`
+- Merge SAFE expansion with base synth set: `python src/merge_safe_move_synth_sets.py`
 
 Archived synthetic train/validation scripts live under `archive/v0_3_experiments/`.
 

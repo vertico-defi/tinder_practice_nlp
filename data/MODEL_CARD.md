@@ -1,16 +1,18 @@
-# Model Card - Safety Gate (v0.5)
+# Model Card - Safety Gate (v0.5.1)
 
 ## Model Summary
 - Model: sentence-transformer embeddings + Logistic Regression classifier (v0.3 setup)
 - Purpose: score user messages for boundary-risk and gate unsafe moves
 - Primary artifact: `models/safe_violation_clf_embed.joblib`
 
-## System Overview (v0.5)
+## System Overview (v0.5.1)
 - LLM layer: llama.cpp client using a local GGUF instruct model (external pretrained; not trained here)
 - Safety layer: v0.3 embedding logistic regression classifier used as a guardrail
 - Phase tracker: conservative phase inference used for gating and debug output
 - Personality: randomized per session from preset profiles
 - Semantic memory: fact-only memory persisted to `data/memory/`
+- Safety repair: contextual safe replies that acknowledge the user before redirecting
+- Bot profile selection: user-selectable bot gender with neutral preference handling
 
 ## Intended Use
 - Safety-risk estimation and intervention in the practice chat loop.
@@ -36,6 +38,8 @@
 - Legacy TF-IDF training script: `python src/train_safe_classifier.py` (baseline only)
 - Validation scripts: `python src/eval_safe_on_synth_validation.py` and related variants
 - Outputs: `data/results/` reports
+  - SAFE expansion file (optional): `data/labels_safe_move_synth_safe_expansion.jsonl`
+  - Merged training file (optional): `data/labels_safe_move_synth_merged.jsonl`
 
 ## Limitations
 - Weak supervision rules can miss implicit or nuanced unsafe content.

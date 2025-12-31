@@ -13,11 +13,17 @@ This document summarizes evaluation scripts and outputs.
 Archived binary variants live under `archive/v0_3_experiments/`.
 
 Outputs are written to `data/results/` with versioned filenames.
+Optional SAFE expansion data lives at `data/labels_safe_move_synth_safe_expansion.jsonl`.
+Merged training data (base + SAFE expansion) is at `data/labels_safe_move_synth_merged.jsonl`.
 
-## v0.5 System-Level Evaluation
+## v0.5.1 System-Level Evaluation
 - The safety classifier metrics remain the v0.3 synthetic validation evaluation.
-- For v0.5, manual smoke tests verified phase debug output, personality selection, memory persistence, and gate behavior on escalation prompts.
+- For v0.5.1, manual smoke tests verified phase debug output, personality selection, memory persistence, contextual safety repair, and block behavior.
 - No new benchmark results are claimed beyond the existing `data/results/` reports.
+
+## Retraining Note
+- To retrain with the merged SAFE expansion set:
+  - `python -m src.train_safe_classifier_embed --train_jsonl data/labels_safe_move_synth_merged.jsonl --out_model models/safe_violation_clf_embed.joblib`
 
 ## Reporting Conventions
 - Track script version, dataset version, and model artifact used per run.

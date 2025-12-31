@@ -6,17 +6,23 @@ This project follows a versioned, experimental development process suitable for 
 
 ---
 
-## [v0.5.0] — Phases, Personality, Memory (Current)
+## [v0.5.1] — Safety Repair + Profile Preferences (Current)
 
 ### Added
 - Conversation phase tracking with conservative transitions and debug output.
 - Randomized personality profiles per session.
 - Gated erotic escalation with soft deflection templates.
 - Fact-only semantic memory persisted under `data/memory/`.
+- Context-aware safety repair responses.
+- Bot gender selection and neutral attraction handling.
+- SAFE expansion synthetic file for benign intimacy-adjacent language.
+- Merge script and merged training set for SAFE expansion data.
+- Session blocking for repeated escalation or low engagement.
 
 ### Changed
 - Chat entrypoint updated to `python -m src.chat_v0_5_chatbot`.
 - System prompt now injects phase/personality/memory context for the LLM.
+ - Safety repair now acknowledges user content before redirecting.
 
 ### Known Limitations
 - Phase/intent detection is heuristic and can misclassify tone.
