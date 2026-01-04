@@ -5,5 +5,13 @@ __pycache__/
 data/logs/
 models/
 data/results/
+data/memory/
 
+#LLM binaries
+*.gguf
+models/gguf/
 
+#Archived Experiments
+archive/
+
+*.code-workspace

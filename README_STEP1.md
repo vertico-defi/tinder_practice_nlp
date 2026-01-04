@@ -1,5 +1,47 @@
 # Step 1 — Scope and Success Metrics (Capstone NLP)
 
+Note: This document covers the initial Step 1 deliverable only. For current project status and workflows, see `README.md`.
+
+## v0.4 Offline Chatbot (base for v0.5)
+Run the terminal chatbot with a local GGUF instruct model (no internet needed once the model is downloaded).
+
+Example:
+```bash
+python -u -m src.chat_v0_5_chatbot --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf --persona flirty_adult_ok --threshold 0.45
+```
+
+## v0.6.0 Real Profiles + Style Planner
+Adds phase tracking, real profile cards (bio + photos), personality-driven response planning, gated erotic escalation, fact-only semantic memory, trust-tiered safety, and identity guards.
+
+Phases: OPENING → RAPPORT → FLIRTING → INTIMATE → EROTIC (with BOUNDARY_REPAIR and COOLDOWN when needed).
+
+Example:
+```bash
+python -u -m src.chat_v0_5_chatbot \
+  --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf \
+  --persona_profile random \
+  --threshold 0.45
+```
+
+Clear memory:
+```bash
+python -m src.chat_v0_5_chatbot --clear-memory --memory_id test1
+```
+
+Key flags:
+- `--persona_profile`: `random` or a preset id (see startup log)
+- `--bot_gender`: `female|male|random` (default random)
+- `--user_gender`: `female|male|unspecified` (default unspecified)
+- `--attraction`: `women|men|any|unspecified` (default unspecified)
+- `--memory_id`: session memory file key (default derived from persona + date)
+- `--clear-memory`: delete memory file and exit
+
+Memory behavior: extracts simple user facts (likes/favorites/job) and skips sensitive data (addresses/phones).
+Blocking behavior: repeated escalation or low engagement can trigger a polite block and end the session.
+Trust behavior: trust level grows with respectful, mutual signals and governs when suggestive/explicit content is allowed.
+Identity behavior: bot name/gender/pronouns are locked; implausible claims are deflected.
+Profile commands: `/profile`, `/pics`, `/name`, `/switch`.
+
 ## Purpose
 This repository defines a platform-agnostic dating-chat practice simulator dataset and evaluation rubric for an NLP capstone project.
 

@@ -1,1 +1,9 @@
-# v0 baseline: no external deps required
+joblib
+numpy
+scikit-learn
+sentence-transformers
+llama-cpp-python
+
+# Optional (only if using transformers-based clients)
+torch
+transformers
