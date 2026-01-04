@@ -17,7 +17,15 @@ def test_gender_lock() -> None:
     assert "I am a man" in fixed, fixed
 
 
+def test_nonbinary_lock() -> None:
+    profile = get_profile("nonbinary_nerd", "nonbinary")
+    reply = "I'm a woman who loves sci-fi."
+    fixed = enforce_identity(reply, profile)
+    assert "nonbinary" in fixed.lower(), fixed
+
+
 if __name__ == "__main__":
     test_name_lock()
     test_gender_lock()
+    test_nonbinary_lock()
     print("[OK] identity guard tests passed")

@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import argparse
 from datetime import datetime
+import random
+import re
 from typing import Dict, List
 
 from src.safety_embed import SafetyEmbedScorer
@@ -17,7 +19,8 @@ from src.llm_client_llamacpp import LlamaCppChatClient, LlamaCppConfig
 from src.conversation_phase import ConversationPhaseTracker, ConversationPhase
 from src.personality import get_profile, list_profile_ids, BotProfile
 from src.memory import SemanticMemoryStore
-from src.response_guards import enforce_identity, reality_guard
+from src.response_guards import enforce_identity, reality_guard, strip_questions
+from src.response_planner import plan_response, StylePlan
 from src.trust import (
     TrustState,
     classify_erotic_intent,
@@ -50,30 +53,44 @@ def build_system_context(
     attraction: str,
     trust_state: TrustState,
     allow_city_share: bool,
+    style_plan: StylePlan,
 ) -> str:
     mem = "; ".join(memory_hooks) if memory_hooks else "none"
     erotic_note = EROTIC_ALLOWED_GUIDANCE if allow_erotic else "Keep replies non-explicit; slow down if needed."
     attraction_line = f"attraction={attraction}" if attraction != "unspecified" else "attraction=unspecified"
     user_gender_line = f"user_gender={user_gender}" if user_gender != "unspecified" else "user_gender=unspecified"
+    bio = " ".join(bot_profile.bio)
+    photos_summary = bot_profile.photos_summary()
+    photos_prompt = bot_profile.photos_prompt()
     location_note = (
         "If asked about location, keep it vague and city-level only."
         if allow_city_share
         else "Do not share location details."
     )
+    plan_line = (
+        f"STYLE PLAN: plan={style_plan.plan} ask_question={'yes' if style_plan.ask_question else 'no'}; "
+        f"disclosure={style_plan.disclosure or 'none'}; story={style_plan.story or 'none'}; tease={style_plan.tease or 'none'}. "
+        "If a disclosure/story/tease is provided, weave it in naturally."
+    )
     return (
         "SYSTEM CONTEXT (hidden):\n"
         f"phase={phase_state.phase.value}\n"
         f"bot_profile={bot_profile.summary()}\n"
+        f"bio={bio}\n"
+        f"photos={photos_summary}\n"
+        f"photos_prompt={photos_prompt}\n"
         f"trust_level={trust_state.level:.2f} tier={trust_state.tier()} consent={trust_state.consent_state}\n"
         f"{user_gender_line}\n"
         f"{attraction_line}\n"
         f"memory={mem}\n"
         "Instruction: be natural and human; do not assume the user's attraction unless specified; "
         "identity is locked (name/gender/pronouns) and must remain consistent; avoid grandiose claims; "
+        "do not contradict your profile bio or photo descriptions; "
         "escalate only if appropriate; "
         "respect boundaries and avoid asking for address/location. "
         f"{location_note} "
-        f"{erotic_note}"
+        f"{erotic_note}\n"
+        f"{plan_line}"
     )
 
 
@@ -87,6 +104,22 @@ def is_low_engagement(text: str) -> bool:
     return len(words) <= 2
 
 
+def is_name_intent(text: str) -> bool:
+    return bool(re.search(r"\b(name|call you)\b", text, re.IGNORECASE))
+
+
+def is_pics_intent(text: str) -> bool:
+    return bool(re.search(r"\b(pics?|photos?|pictures?)\b", text, re.IGNORECASE))
+
+
+def is_bio_intent(text: str) -> bool:
+    return bool(re.search(r"\b(bio|about you|about yourself|profile)\b", text, re.IGNORECASE))
+
+
+def asked_question(text: str) -> bool:
+    return "?" in (text or "")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--safety_model", default="models/safe_violation_clf_embed.joblib")
@@ -94,7 +127,7 @@ def main():
 
     ap.add_argument("--persona", default="friendly", choices=list(PERSONA_SYSTEM.keys()))
     ap.add_argument("--persona_profile", default="random")
-    ap.add_argument("--bot_gender", default="random", choices=["female", "male", "random"])
+    ap.add_argument("--bot_gender", default="random", choices=["female", "male", "nonbinary", "random"])
     ap.add_argument("--user_gender", default="unspecified", choices=["female", "male", "unspecified"])
     ap.add_argument("--attraction", default="unspecified", choices=["women", "men", "any", "unspecified"])
     ap.add_argument("--memory_id", default=None)
@@ -145,6 +178,8 @@ def main():
         f"pace={bot_profile.pace} boundary_strictness={bot_profile.boundary_strictness:.2f}",
         flush=True,
     )
+    print(f"[BOT] {bot_profile.profile_card()}", flush=True)
+    print("[BOT] type /pics to view profile photos", flush=True)
     print(
         f"[USER] user_gender={args.user_gender} attraction={args.attraction}",
         flush=True,
@@ -177,6 +212,8 @@ def main():
     soft_deflect_count = 0
     low_engagement_count = 0
     last_mode = "NORMAL"
+    last_asked_question = False
+    rng = random.Random()
 
     while True:
         user = input("you> ").strip()
@@ -184,6 +221,51 @@ def main():
             print("bot> Bye.")
             break
         if not user:
+            continue
+
+        if user.startswith("/"):
+            cmd = user.strip().lower()
+            if cmd == "/profile":
+                reply = f"{bot_profile.profile_card()} | traits: {bot_profile.trait_summary()}"
+                mode = "PROFILE"
+            elif cmd == "/pics":
+                reply = bot_profile.photos_detail()
+                mode = "PICS"
+            elif cmd == "/name":
+                reply = f"I'm {bot_profile.name} ({bot_profile.pronouns})."
+                mode = "NAME"
+            elif cmd == "/switch":
+                bot_profile = get_profile("random", args.bot_gender, rng=rng)
+                memory_id = f"{bot_profile.profile_id}_{datetime.now().strftime('%Y%m%d')}"
+                memory = SemanticMemoryStore(memory_id)
+                trust_level = float(memory.meta.get("trust_level", 0.1))
+                consent_state = str(memory.meta.get("consent_state", "none"))
+                history = [{"role": "system", "content": PERSONA_SYSTEM[args.persona]}]
+                tracker = ConversationPhaseTracker()
+                safety_repair_count = 0
+                soft_deflect_count = 0
+                low_engagement_count = 0
+                last_mode = "NORMAL"
+                last_asked_question = False
+                reply = f"Switched to {bot_profile.name}. {bot_profile.profile_card()}"
+                mode = "SWITCH"
+            else:
+                reply = "Commands: /profile /pics /name /switch"
+                mode = "HELP"
+            print(f"bot> {reply}\n")
+            continue
+
+        if is_name_intent(user):
+            reply = f"I'm {bot_profile.name} ({bot_profile.pronouns})."
+            print(f"bot> {reply}\n")
+            continue
+        if is_pics_intent(user):
+            reply = bot_profile.photos_detail()
+            print(f"bot> {reply}\n")
+            continue
+        if is_bio_intent(user):
+            reply = f"{bot_profile.profile_card()} | traits: {bot_profile.trait_summary()}"
+            print(f"bot> {reply}\n")
             continue
 
         s = scorer.score(user, threshold=args.threshold)
@@ -233,6 +315,7 @@ def main():
                 and phase_state_before.phase in {ConversationPhase.INTIMATE, ConversationPhase.EROTIC}
             )
 
+        style_plan = None
         if rule_hit or (location_request and not allow_city_share):
             reply = boundary_safe_reply_contextual(
                 user_text=user,
@@ -282,6 +365,7 @@ def main():
 
         if mode == "NORMAL":
             allow_erotic = allow_erotic and trust_state.level >= 0.6 and trust_state.consent_state == "explicit"
+            style_plan = plan_response(user, phase_state_before.phase, bot_profile, last_asked_question, rng)
             system_context = build_system_context(
                 phase_state_before,
                 bot_profile,
@@ -291,11 +375,14 @@ def main():
                 args.attraction,
                 trust_state,
                 allow_city_share,
+                style_plan,
             )
             messages = history + [{"role": "system", "content": system_context}]
             reply = llm.chat(messages)
             reply = enforce_identity(reply, bot_profile)
             reply = reality_guard(reply, bot_profile)
+            if not style_plan.ask_question:
+                reply = strip_questions(reply)
 
         if mode == "SAFETY_REPAIR":
             safety_repair_count += 1
@@ -382,6 +469,11 @@ def main():
             f"intimate={new_state.intimacy_score:.2f} erotic={new_state.erotic_score:.2f}]",
             flush=True,
         )
+        if style_plan:
+            print(
+                f"     [style plan={style_plan.plan} ask_question={'yes' if style_plan.ask_question else 'no'}]",
+                flush=True,
+            )
         print(
             f"     [trust={trust_state.level:.2f} tier={trust_state.tier()} consent={trust_state.consent_state} reason={trust_state.last_reason}]",
             flush=True,
@@ -393,6 +485,7 @@ def main():
             )
         print("", flush=True)
         last_mode = mode
+        last_asked_question = asked_question(reply)
         if mode == "BLOCK":
             input("Press Enter to exit the chatbot.")
             break

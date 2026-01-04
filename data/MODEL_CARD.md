@@ -1,11 +1,11 @@
-# Model Card - Safety Gate (v0.5.2)
+# Model Card - Safety Gate (v0.6.0)
 
 ## Model Summary
 - Model: sentence-transformer embeddings + Logistic Regression classifier (v0.3 setup)
 - Purpose: score user messages for boundary-risk and gate unsafe moves
 - Primary artifact: `models/safe_violation_clf_embed.joblib`
 
-## System Overview (v0.5.2)
+## System Overview (v0.6.0)
 - LLM layer: llama.cpp client using a local GGUF instruct model (external pretrained; not trained here)
 - Safety layer: v0.3 embedding logistic regression classifier used as a guardrail
 - Phase tracker: conservative phase inference used for gating and debug output
@@ -15,6 +15,8 @@
 - Bot profile selection: user-selectable bot gender with neutral preference handling
 - Trust system: trust level tiers control when suggestive/explicit content is permitted
 - Identity lock + reality guard: enforce consistent name/gender/pronouns and deflect implausible claims
+- Profile cards: bio + photo descriptions used for deterministic responses
+- Style planner: plans response structure and question frequency
 
 ## Intended Use
 - Safety-risk estimation and intervention in the practice chat loop.

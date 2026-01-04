@@ -13,6 +13,15 @@ _NAME_PATTERNS = [
     r"\bi'm\s+([A-Z][a-z]+)\b",
 ]
 
+_FALSE_NAME_TOKENS = {
+    "sure",
+    "not",
+    "here",
+    "good",
+    "ok",
+    "okay",
+}
+
 _GENDER_PATTERNS = [
     (r"\bi am a man\b", "male"),
     (r"\bi'm a man\b", "male"),
@@ -22,6 +31,10 @@ _GENDER_PATTERNS = [
     (r"\bi'm a guy\b", "male"),
     (r"\bi am a girl\b", "female"),
     (r"\bi'm a girl\b", "female"),
+    (r"\bi am nonbinary\b", "nonbinary"),
+    (r"\bi'm nonbinary\b", "nonbinary"),
+    (r"\bi am non-binary\b", "nonbinary"),
+    (r"\bi'm non-binary\b", "nonbinary"),
 ]
 
 _IMPLAUSIBLE_KEYWORDS = [
@@ -45,6 +58,8 @@ def enforce_identity(reply: str, bot_profile: BotProfile) -> str:
         m = re.search(pat, text, flags=re.IGNORECASE)
         if m:
             claimed = m.group(1)
+            if claimed.lower() in _FALSE_NAME_TOKENS:
+                return text
             if claimed.lower() != name.lower():
                 text = re.sub(pat, f"my name is {name}", text, flags=re.IGNORECASE)
             break
@@ -52,7 +67,12 @@ def enforce_identity(reply: str, bot_profile: BotProfile) -> str:
     for pat, gender in _GENDER_PATTERNS:
         if re.search(pat, text, flags=re.IGNORECASE):
             if gender != bot_profile.gender:
-                replacement = "I am a woman" if bot_profile.gender == "female" else "I am a man"
+                if bot_profile.gender == "female":
+                    replacement = "I am a woman"
+                elif bot_profile.gender == "male":
+                    replacement = "I am a man"
+                else:
+                    replacement = "I am nonbinary"
                 text = re.sub(pat, replacement, text, flags=re.IGNORECASE)
             break
 
@@ -88,3 +108,14 @@ def reality_guard(reply: str, bot_profile: BotProfile) -> str:
     if not cleaned:
         return "I haven't done anything that extreme, but I do like keeping things grounded."
     return " ".join(cleaned).strip()
+
+
+def strip_questions(reply: str) -> str:
+    text = reply or ""
+    if "?" not in text:
+        return text
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+    kept = [s for s in sentences if "?" not in s]
+    if kept:
+        return " ".join(kept).strip()
+    return re.sub(r"\?+", ".", text).strip()

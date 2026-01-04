@@ -10,8 +10,8 @@ Example:
 python -u -m src.chat_v0_5_chatbot --gguf_model models/gguf/Phi-3-mini-4k-instruct-q4.gguf --persona flirty_adult_ok --threshold 0.45
 ```
 
-## v0.5.2 Conversation Phases + Personality + Memory
-Adds phase tracking, randomized personality profiles, gated erotic escalation, fact-only semantic memory, trust-tiered safety, and identity guards.
+## v0.6.0 Real Profiles + Style Planner
+Adds phase tracking, real profile cards (bio + photos), personality-driven response planning, gated erotic escalation, fact-only semantic memory, trust-tiered safety, and identity guards.
 
 Phases: OPENING → RAPPORT → FLIRTING → INTIMATE → EROTIC (with BOUNDARY_REPAIR and COOLDOWN when needed).
 
@@ -40,6 +40,7 @@ Memory behavior: extracts simple user facts (likes/favorites/job) and skips sens
 Blocking behavior: repeated escalation or low engagement can trigger a polite block and end the session.
 Trust behavior: trust level grows with respectful, mutual signals and governs when suggestive/explicit content is allowed.
 Identity behavior: bot name/gender/pronouns are locked; implausible claims are deflected.
+Profile commands: `/profile`, `/pics`, `/name`, `/switch`.
 
 ## Purpose
 This repository defines a platform-agnostic dating-chat practice simulator dataset and evaluation rubric for an NLP capstone project.
